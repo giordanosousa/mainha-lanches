@@ -1,2 +1,14 @@
-node_modules/
+# Ignorar dependências do Node.js em qualquer subpasta (backend e frontend)
 **/node_modules/
+
+# Ignorar arquivos de variáveis de ambiente em qualquer subpasta
+**/.env
+**/.env.*
+
+# Arquivos e diretórios do sistema/S.O.
+.DS_Store
+*.log
+
+# Pastas de build/dist (caso tenha no frontend)
+**/dist/
+**/build/
